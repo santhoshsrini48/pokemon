@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div>
+  <h1>Pokemon</h1>
+<input placeholder="search pokemon" id="search-pokemon"/>
+    <button id="search-button" onclick="search()" >Search</button>
+    <button  class="save-button" onclick="save()" type="button">Save</button>
+  <button  class="remove-button" onclick="removePokemon()" type="button">remove</button>
+<div class="float-container">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+
+      <img  class="front-image" src="" alt="Avatar" style="width:100%;height:68%;">
+        <img class="pokecard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK_kIRjA4YjAlkpKty9XqSZpo5A9mVoRCrxRwWiB2yTMxEY2foldXkVr8CdUuppDR2r-Q&usqp=CAU">
+
+      </div>
+    <div class="flip-card-back">
+      <img class="back-image" src="" alt="Avatar" style="width:100%;height:68%;">
+      <img class="pokecard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK_kIRjA4YjAlkpKty9XqSZpo5A9mVoRCrxRwWiB2yTMxEY2foldXkVr8CdUuppDR2r-Q&usqp=CAU">
+    </div>
+  </div>
+</div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h1 class="pokemonName"></h1>
+        <img class="pokecard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK_kIRjA4YjAlkpKty9XqSZpo5A9mVoRCrxRwWiB2yTMxEY2foldXkVr8CdUuppDR2r-Q&usqp=CAU">
+      </div>
+      <div class="flip-card-back">
+        <span class="pokemonName"></span>
+        <img class="pokecard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK_kIRjA4YjAlkpKty9XqSZpo5A9mVoRCrxRwWiB2yTMxEY2foldXkVr8CdUuppDR2r-Q&usqp=CAU">
+      </div>
+    </div>
+  </div>
+  <section  aria-label="Gallery">
+    <div class="container">
+      <div class="carousel">
+
+        <div id="carouselElement"  />
+      </div>
+    </div>
+  </section>
+
+
+
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
